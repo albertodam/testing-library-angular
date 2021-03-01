@@ -1,0 +1,6 @@
+<p>second-test works!</p>
+<form [formGroup]="grettingForm">
+    <input type="text" id="name-gretting" name="name" formControlName="name" />
+</form>
+<button (click)="grettingMe()">Saluda</button>
+<div id="gretting">{{gretting}}</div>
